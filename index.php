@@ -305,22 +305,22 @@
       </div>
       <div class="row">
         <div class="contact-form">
-          <form>
+          <form action="contactform.php" method="post">
             <div class="row">
               <div class="input-group">
-                <input type="text" placeholder="Name" class="input-control" required>
+                <input type="text" name="name" placeholder="Name" class="input-control" required>
               </div>
               <div class="input-group">
-                <input type="text" placeholder="Email" class="input-control" required>
+                <input type="text" name="email" placeholder="Email" class="input-control" required>
               </div>
               <div class="input-group">
-                <input type="text" placeholder="Subject" class="input-control" required>
+                <input type="text" name="subject" placeholder="Subject" class="input-control" required>
               </div>
               <div class="input-group">
-                <textarea placeholder="Message" class="input-control" required></textarea>
+                <textarea name="message" placeholder="Message" class="input-control" required></textarea>
               </div>
               <div class="submit-btn">
-                <button type="submit" class="btn">send message</button>
+                <button type="submit" name="submit" class="btn">send message</button>
               </div>
             </div>
           </form>
